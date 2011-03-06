@@ -1,0 +1,14 @@
+setup.py
+strokelitude/__init__.py
+strokelitude/data_format.py
+strokelitude/plot_latencies.py
+strokelitude/plugin.py
+strokelitude/strokelitude.py
+strokelitude.egg-info/.gitignore
+strokelitude.egg-info/PKG-INFO
+strokelitude.egg-info/SOURCES.txt
+strokelitude.egg-info/dependency_links.txt
+strokelitude.egg-info/entry_points.txt
+strokelitude.egg-info/stdeb.cfg
+strokelitude.egg-info/top_level.txt
+strokelitude.egg-info/zip-safe

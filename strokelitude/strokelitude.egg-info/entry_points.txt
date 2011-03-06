@@ -1,0 +1,6 @@
+[motmot.fview.plugins]
+strokelitude = strokelitude.strokelitude:StrokelitudeClass
+
+[console_scripts]
+hfive2mat = hfive2mat:main
+
