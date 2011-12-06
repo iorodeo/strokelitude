@@ -54,6 +54,7 @@ BGReadyEvent = wx.NewEventType()
 D2R = np.pi/180.0
 R2D = 180.0/np.pi
 AOUT_MAX_VALUE = 500
+ENABLE_PWM_OUT = True 
 
 def load_plugins():
     # modified from motmot.fview.plugin_manager
@@ -1740,7 +1741,8 @@ class StrokelitudeClass(traited_plugin.HasTraits_FViewPlugin):
         
         # WBD - Set analog values based on wing angles
         # ---------------------------------------------------------------------
-        #self.set_aout_values(left_angle_degrees,right_angle_degrees)
+        if ENABLE_PWM_OUT: 
+            self.set_aout_values(left_angle_degrees,right_angle_degrees)
         # ---------------------------------------------------------------------
 
         # draw lines
